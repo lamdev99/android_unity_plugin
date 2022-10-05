@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "AndroidUnityPlugin"
 include ':app'
 include ':vibration'
+include ':foreground'

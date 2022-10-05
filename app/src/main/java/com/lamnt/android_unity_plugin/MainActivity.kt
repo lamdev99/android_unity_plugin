@@ -4,10 +4,10 @@ import android.app.ActivityManager
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
+import com.unity3d.player.UnityPlayerActivity
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : UnityPlayerActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
